@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="./image.png">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet data-dc-atomics>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="./image-slot.js"></script>
+<style>
+  body { margin: 0; background: #F7F2E6; font-family: Archivo, Helvetica, Arial, sans-serif; color: #111; -webkit-font-smoothing: antialiased; }
+  * { box-sizing: border-box; }
+  a { color: #2E7D32; text-decoration: none; }
+  a:hover { color: #111; }
+  @keyframes mk-marq { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+  @keyframes mk-spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+</style>
+</helmet>
+
+<div style="width:100%">
+
+  <div style="background:#2E7D32;color:#fff;font:600 12px/1 Archivo,sans-serif;letter-spacing:.14em;text-transform:uppercase;padding:11px 16px;text-align:center;border-bottom:2px solid #111">Free shipping over &#8377;799 &nbsp;&#183;&nbsp; Small batches, shipped within 48h</div>
+
+  <header style="position:sticky;top:0;z-index:40;background:#F7F2E6;border-bottom:2px solid #111;padding:10px 20px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap">
+    <nav style="display:flex;gap:18px;font:600 13px/1 Archivo,sans-serif;letter-spacing:.06em;text-transform:uppercase;flex:1 1 180px">
+      <a href="#shop" style="color:#111">Shop</a>
+      <a href="#story" style="color:#111">Our Story</a>
+      <a href="#ugc" style="color:#111">Reviews</a>
+    </nav>
+    <div style="flex:0 0 auto;height:64px;width:64px;border:2px solid #111;border-radius:8px;background:#2E7D32;overflow:hidden">
+      <img src="./image.png" alt="Mubi's Kitchen logo" style="display:block;width:100%;height:100%;object-fit:cover" />
+    </div>
+    <div style="display:flex;gap:10px;align-items:center;justify-content:flex-end;flex:1 1 180px;font:600 13px/1 Archivo,sans-serif;letter-spacing:.06em;text-transform:uppercase">
+      <span style="padding:11px 12px;border:2px solid #111;border-radius:8px;background:#fff">Search</span>
+      <span style="padding:11px 14px;border:2px solid #111;border-radius:8px;background:#111;color:#fff">Cart (2)</span>
+    </div>
+  </header>
+
+  <section style="padding:clamp(28px,5vw,72px) clamp(16px,4vw,56px) clamp(40px,6vw,88px);background:#F7F2E6">
+    <div style="max-width:1240px;margin:0 auto;display:flex;flex-wrap:wrap;gap:clamp(24px,4vw,56px);align-items:center">
+      <div style="flex:1 1 360px;min-width:280px;display:flex;flex-direction:column;gap:22px">
+        <span style="align-self:flex-start;font:600 12px/1 Archivo,sans-serif;letter-spacing:.16em;text-transform:uppercase;border:2px solid #111;border-radius:8px;padding:9px 13px;background:#fff;box-shadow:4px 4px 0 #2E7D32">Bestseller &#183; Mubi's Original</span>
+        <h1 style="margin:0;font:400 clamp(40px,5.2vw,86px)/0.92 'Archivo Black',Archivo,sans-serif;letter-spacing:-.02em;text-transform:uppercase;text-wrap:balance;overflow-wrap:break-word;hyphens:auto">Home-style<br>pickles,<br><span style="color:#2E7D32">no shortcuts.</span></h1>
+        <p style="margin:0;max-width:44ch;font:400 clamp(16px,1.3vw,19px)/1.55 Archivo,sans-serif;color:#2b2b2b;text-wrap:pretty">It's not just a pickle &mdash; it's home packed in a jar. Sun-ripened mangoes, cold-pressed mustard oil, stone-ground masala. Nothing else.</p>
+        <div style="display:flex;flex-wrap:wrap;gap:12px;align-items:center">
+          <a href="#shop" style="font:600 15px/1 Archivo,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#fff;background:#111;border:2px solid #111;border-radius:8px;padding:17px 26px;box-shadow:5px 5px 0 #2E7D32">Shop now</a>
+          <a href="#featured" style="font:600 15px/1 Archivo,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#111;background:#fff;border:2px solid #111;border-radius:8px;padding:17px 26px">What's inside</a>
+        </div>
+        <div style="display:flex;gap:22px;flex-wrap:wrap;font:600 12px/1 Archivo,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:#4a4a4a;border-top:2px solid #111;padding-top:16px">
+          <span>4.9 &#9733; &#183; 1,240 reviews</span><span>No preservatives</span><span>Small batch</span>
+        </div>
+      </div>
+      <div style="flex:1 1 400px;min-width:280px;position:relative">
+        <div style="border:2px solid #111;border-radius:8px;background:#fff;box-shadow:8px 8px 0 #111;overflow:hidden;aspect-ratio:4/5">
+          <img src="./assets/products/mango-pickle.png" alt="Mubi's Kitchen Mango Pickle jar" style="display:block;width:100%;height:100%;object-fit:contain;padding:24px" />
+        </div>
+        <div style="position:absolute;left:-14px;bottom:-18px;width:132px;height:132px;border:2px solid #111;border-radius:8px;background:#F7F2E6;box-shadow:5px 5px 0 #2E7D32;overflow:hidden">
+          <img src="./assets/products/beef-pickle.png" alt="Mubi's Kitchen Beef Pickle jar" style="display:block;width:100%;height:100%;object-fit:contain;padding:8px" />
+        </div>
+        <div style="position:absolute;right:-10px;top:-14px;transform:rotate(-8deg);background:#2E7D32;color:#fff;border:2px solid #111;border-radius:8px;padding:11px 14px;font:400 13px/1.15 'Archivo Black',Archivo,sans-serif;letter-spacing:.04em;text-transform:uppercase;text-align:center;box-shadow:4px 4px 0 #111">Mango<br>Avakaya</div>
+      </div>
+    </div>
+  </section>
+
+  <div style="background:#111;border-top:2px solid #111;border-bottom:2px solid #111;overflow:hidden;padding:15px 0">
+    <div data-marquee="1" style="display:flex;gap:0;width:max-content;animation:mk-marq 26s linear infinite">
+      <div style="display:flex;gap:44px;padding-right:44px;font:400 clamp(18px,2.2vw,28px)/1 'Archivo Black',Archivo,sans-serif;letter-spacing:.04em;text-transform:uppercase;color:#fff;white-space:nowrap">
+        <span>100% Home-style</span><span style="color:#2E7D32">&#10022;</span><span>No preservatives</span><span style="color:#2E7D32">&#10022;</span><span>Small batch</span><span style="color:#2E7D32">&#10022;</span><span>Made with love</span><span style="color:#2E7D32">&#10022;</span><span>Cold-pressed oil</span><span style="color:#2E7D32">&#10022;</span>
+      </div>
+      <div style="display:flex;gap:44px;padding-right:44px;font:400 clamp(18px,2.2vw,28px)/1 'Archivo Black',Archivo,sans-serif;letter-spacing:.04em;text-transform:uppercase;color:#fff;white-space:nowrap" aria-hidden="true">
+        <span>100% Home-style</span><span style="color:#2E7D32">&#10022;</span><span>No preservatives</span><span style="color:#2E7D32">&#10022;</span><span>Small batch</span><span style="color:#2E7D32">&#10022;</span><span>Made with love</span><span style="color:#2E7D32">&#10022;</span><span>Cold-pressed oil</span><span style="color:#2E7D32">&#10022;</span>
+      </div>
+    </div>
+  </div>
+
+  <section id="shop" style="padding:clamp(44px,6vw,96px) clamp(16px,4vw,56px);background:#F7F2E6">
+    <div style="max-width:1240px;margin:0 auto">
+      <div style="display:flex;flex-wrap:wrap;gap:16px;align-items:flex-end;justify-content:space-between;border-bottom:2px solid #111;padding-bottom:18px;margin-bottom:clamp(24px,3vw,40px)">
+        <h2 style="margin:0;font:400 clamp(32px,4.6vw,60px)/0.95 'Archivo Black',Archivo,sans-serif;letter-spacing:-.015em;text-transform:uppercase">The&nbsp;jar&nbsp;lineup</h2>
+        <p style="margin:0;font:600 13px/1 Archivo,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:#4a4a4a">4 flavours &#183; singles &amp; combo</p>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:clamp(14px,1.8vw,24px)">
+
+        <article data-reveal="up" data-delay="0" style="flex:1 1 calc(33.333% - 16px);min-width:150px;display:flex;flex-direction:column;border:2px solid #111;border-radius:8px;overflow:hidden;background:#fff;box-shadow:5px 5px 0 #111">
+          <div style="position:relative;aspect-ratio:1/1;background:#E7EFE0;border-bottom:2px solid #111">
+            <img src="./assets/products/beef-pickle.png" alt="Mubi's Kitchen Beef Pickle jar" loading="lazy" style="display:block;width:100%;height:100%;object-fit:contain;padding:12px" />
+            <span style="position:absolute;top:8px;left:8px;font:600 10px/1 Archivo,sans-serif;letter-spacing:.12em;text-transform:uppercase;background:#111;color:#fff;border-radius:8px;padding:6px 8px">Bestseller</span>
+          </div>
+          <div style="padding:14px;display:flex;flex-direction:column;gap:12px;flex:1">
+            <h3 style="margin:0;font:400 clamp(17px,1.5vw,22px)/1.05 'Archivo Black',Archivo,sans-serif;text-transform:uppercase">Beef Pickle</h3>
+            <p style="margin:0;font:400 13px/1.4 Archivo,sans-serif;color:#4a4a4a">Rich, spicy, slow-cooked</p>
+            <div style="margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:10px">
+              <span style="font:700 16px/1 Archivo,sans-serif">&#8377;349</span>
+              <span style="font:600 12px/1 Archivo,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:#2E7D32;border:2px solid #111;border-radius:8px;padding:10px 14px">Add</span>
+            </div>
+          </div>
+        </article>
+
+        <article data-reveal="up" data-delay="60" style="flex:1 1 calc(33.333% - 16px);min-width:150px;display:flex;flex-direction:column;border:2px solid #111;border-radius:8px;overflow:hidden;background:#fff;box-shadow:5px 5px 0 #111">
+          <div style="aspect-ratio:1/1;background:#F2E7CC;border-bottom:2px solid #111">
+            <img src="./assets/products/lemon-pickle.png" alt="Mubi's Kitchen Lemon Pickle jar" loading="lazy" style="display:block;width:100%;height:100%;object-fit:contain;padding:12px" />
+          </div>
+          <div style="padding:14px;display:flex;flex-direction:column;gap:12px;flex:1">
+            <h3 style="margin:0;font:400 clamp(17px,1.5vw,22px)/1.05 'Archivo Black',Archivo,sans-serif;text-transform:uppercase">Lemon Pickle</h3>
+            <p style="margin:0;font:400 13px/1.4 Archivo,sans-serif;color:#4a4a4a">Bright, tangy, properly fiery</p>
+            <div style="margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:10px">
+              <span style="font:700 16px/1 Archivo,sans-serif">&#8377;329</span>
+              <span style="font:600 12px/1 Archivo,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:#2E7D32;border:2px solid #111;border-radius:8px;padding:10px 14px">Add</span>
+            </div>
+          </div>
+        </article>
+
+        <article data-reveal="up" data-delay="120" style="flex:1 1 calc(33.333% - 16px);min-width:150px;display:flex;flex-direction:column;border:2px solid #111;border-radius:8px;overflow:hidden;background:#fff;box-shadow:5px 5px 0 #111">
+          <div style="aspect-ratio:1/1;background:#E7EFE0;border-bottom:2px solid #111">
+            <img src="./assets/products/mango-pickle.png" alt="Mubi's Kitchen Mango Pickle jar" loading="lazy" style="display:block;width:100%;height:100%;object-fit:contain;padding:12px" />
+          </div>
+          <div style="padding:14px;display:flex;flex-direction:column;gap:12px;flex:1">
+            <h3 style="margin:0;font:400 clamp(17px,1.5vw,22px)/1.05 'Archivo Black',Archivo,sans-serif;text-transform:uppercase">Mango Pickle</h3>
+            <p style="margin:0;font:400 13px/1.4 Archivo,sans-serif;color:#4a4a4a">Juicy mango, bold home-style masala</p>
+            <div style="margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:10px">
+              <span style="font:700 16px/1 Archivo,sans-serif">&#8377;299</span>
+              <span style="font:600 12px/1 Archivo,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:#2E7D32;border:2px solid #111;border-radius:8px;padding:10px 14px">Add</span>
+            </div>
+          </div>
+        </article>
+
+        <article data-reveal="up" data-delay="0" style="flex:1 1 calc(33.333% - 16px);min-width:150px;display:flex;flex-direction:column;border:2px solid #111;border-radius:8px;overflow:hidden;background:#fff;box-shadow:5px 5px 0 #111">
+          <div style="aspect-ratio:1/1;background:#F2E7CC;border-bottom:2px solid #111">
+            <img src="./assets/products/garlic-pickle.png" alt="Mubi's Kitchen Garlic Pickle jar" loading="lazy" style="display:block;width:100%;height:100%;object-fit:contain;padding:12px" />
+          </div>
+          <div style="padding:14px;display:flex;flex-direction:column;gap:12px;flex:1">
+            <h3 style="margin:0;font:400 clamp(17px,1.5vw,22px)/1.05 'Archivo Black',Archivo,sans-serif;text-transform:uppercase">Garlic Pickle</h3>
+            <p style="margin:0;font:400 13px/1.4 Archivo,sans-serif;color:#4a4a4a">Deep, punchy, full-clove flavour</p>
+            <div style="margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:10px">
+              <span style="font:700 16px/1 Archivo,sans-serif">&#8377;369</span>
+              <span style="font:600 12px/1 Archivo,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:#2E7D32;border:2px solid #111;border-radius:8px;padding:10px 14px">Add</span>
+            </div>
+          </div>
+        </article>
+
+        <article data-reveal="up" data-delay="60" style="flex:1 1 calc(66.666% - 8px);min-width:300px;display:flex;flex-wrap:wrap;border:2px solid #111;border-radius:8px;overflow:hidden;background:#fff;box-shadow:5px 5px 0 #111">
+          <div style="position:relative;flex:2 1 400px;min-width:260px;min-height:300px;display:flex;align-items:flex-end;justify-content:center;gap:2px;background:#E7EFE0;border-right:2px solid #111;overflow:hidden;padding:42px 8px 12px">
+            <img src="./assets/products/beef-pickle.png" alt="Beef Pickle jar in four-jar combo" loading="lazy" style="display:block;width:25%;height:100%;object-fit:contain" />
+            <img src="./assets/products/lemon-pickle.png" alt="Lemon Pickle jar in four-jar combo" loading="lazy" style="display:block;width:25%;height:100%;object-fit:contain" />
+            <img src="./assets/products/mango-pickle.png" alt="Mango Pickle jar in four-jar combo" loading="lazy" style="display:block;width:25%;height:100%;object-fit:contain" />
+            <img src="./assets/products/garlic-pickle.png" alt="Garlic Pickle jar in four-jar combo" loading="lazy" style="display:block;width:25%;height:100%;object-fit:contain" />
+            <span style="position:absolute;top:10px;left:10px;font:600 10px/1 Archivo,sans-serif;letter-spacing:.12em;text-transform:uppercase;background:#C0392B;color:#fff;border:2px solid #111;border-radius:8px;padding:7px 9px">Save on the set</span>
+          </div>
+          <div style="flex:1 1 220px;min-width:210px;padding:20px;display:flex;flex-direction:column;gap:14px;background:#F2E7CC">
+            <span style="font:600 11px/1 Archivo,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#2E7D32">All four favourites</span>
+            <h3 style="margin:0;font:400 clamp(22px,2.5vw,34px)/.98 'Archivo Black',Archivo,sans-serif;text-transform:uppercase">Mubi's Combo Set</h3>
+            <p style="margin:0;font:400 14px/1.5 Archivo,sans-serif;color:#4a4a4a">Beef, lemon, mango and garlic pickle &mdash; one jar of each.</p>
+            <div style="margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap">
+              <span style="font:700 18px/1 Archivo,sans-serif">&#8377;1,199</span>
+              <span style="font:600 12px/1 Archivo,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:#2E7D32;border:2px solid #111;border-radius:8px;padding:11px 15px">Add combo</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="ugc" style="padding:clamp(40px,5vw,84px) 0 clamp(44px,6vw,92px);background:#fff;border-top:2px solid #111;border-bottom:2px solid #111">
+    <div style="max-width:1240px;margin:0 auto;padding:0 clamp(16px,4vw,56px);display:flex;flex-wrap:wrap;gap:14px;align-items:flex-end;justify-content:space-between;margin-bottom:clamp(20px,3vw,34px)">
+      <h2 style="margin:0;font:400 clamp(30px,4.2vw,54px)/0.95 'Archivo Black',Archivo,sans-serif;text-transform:uppercase;letter-spacing:-.015em">#MubisKitchen</h2>
+      <p style="margin:0;font:600 13px/1 Archivo,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:#2E7D32">As seen on Instagram &#8594;</p>
+    </div>
+    <div style="display:flex;gap:clamp(14px,1.6vw,22px);overflow-x:auto;padding:8px clamp(16px,4vw,56px) 22px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch">
+
+      <figure data-reveal="right" data-delay="0" style="margin:0;flex:0 0 auto;width:min(268px,72vw);scroll-snap-align:start;border:2px solid #111;border-radius:8px;overflow:hidden;background:#F7F2E6;box-shadow:5px 5px 0 #111;transition:transform .25s ease" style-hover="transform:rotate(-1.4deg) scale(1.025)">
+        <div style="aspect-ratio:3/4;border-bottom:2px solid #111;position:relative">
+          <img src="./assets/products/beef-pickle.png" alt="Mubi's Kitchen Beef Pickle jar" loading="lazy" style="display:block;width:100%;height:100%;object-fit:contain;padding:12px" />
+          <span style="position:absolute;bottom:8px;left:8px;font:600 11px/1 Archivo,sans-serif;letter-spacing:.1em;text-transform:uppercase;background:#111;color:#fff;border-radius:8px;padding:7px 9px">&#9654; 0:12</span>
+        </div>
+        <figcaption style="padding:13px;display:flex;flex-direction:column;gap:8px">
+          <p style="margin:0;font:400 15px/1.25 'Archivo Black',Archivo,sans-serif;text-transform:uppercase">"Tastes exactly like my Ammachi's"</p>
+          <sc-if value="{{ showUgcRatings }}" hint-placeholder-val="{{ true }}"><span style="font:600 12px/1 Archivo,sans-serif;letter-spacing:.08em;color:#2E7D32">&#9733;&#9733;&#9733;&#9733;&#9733; &nbsp;Sneha R.</span></sc-if>
+        </figcaption>
+      </figure>
+
+      <figure data-reveal="right" data-delay="80" style="margin:0;flex:0 0 auto;width:min(268px,72vw);scroll-snap-align:start;border:2px solid #111;border-radius:8px;overflow:hidden;background:#F7F2E6;box-shadow:5px 5px 0 #111;transition:transform .25s ease" style-hover="transform:rotate(1.4deg) scale(1.025)">
+        <div style="aspect-ratio:3/4;border-bottom:2px solid #111">
+          <img src="./assets/products/lemon-pickle.png" alt="Mubi's Kitchen Lemon Pickle jar" loading="lazy" style="display:block;width:100%;height:100%;object-fit:contain;padding:12px" />
+        </div>
+        <figcaption style="padding:13px;display:flex;flex-direction:column;gap:8px">
+          <p style="margin:0;font:400 15px/1.25 'Archivo Black',Archivo,sans-serif;text-transform:uppercase">"Packed better than my movers did"</p>
+          <sc-if value="{{ showUgcRatings }}" hint-placeholder-val="{{ true }}"><span style="font:600 12px/1 Archivo,sans-serif;letter-spacing:.08em;color:#2E7D32">&#9733;&#9733;&#9733;&#9733;&#9733; &nbsp;Arjun M.</span></sc-if>
+        </figcaption>
+      </figure>
+
+      <figure data-reveal="right" data-delay="160" style="margin:0;flex:0 0 auto;width:min(268px,72vw);scroll-snap-align:start;border:2px solid #111;border-radius:8px;overflow:hidden;background:#F7F2E6;box-shadow:5px 5px 0 #111;transition:transform .25s ease" style-hover="transform:rotate(-1.4deg) scale(1.025)">
+        <div style="aspect-ratio:3/4;border-bottom:2px solid #111;position:relative">
+          <img src="./assets/products/mango-pickle.png" alt="Mubi's Kitchen Mango Pickle jar" loading="lazy" style="display:block;width:100%;height:100%;object-fit:contain;padding:12px" />
+          <span style="position:absolute;bottom:8px;left:8px;font:600 11px/1 Archivo,sans-serif;letter-spacing:.1em;text-transform:uppercase;background:#111;color:#fff;border-radius:8px;padding:7px 9px">&#9654; 0:08</span>
+        </div>
+        <figcaption style="padding:13px;display:flex;flex-direction:column;gap:8px">
+          <p style="margin:0;font:400 15px/1.25 'Archivo Black',Archivo,sans-serif;text-transform:uppercase">"Finished the jar in nine days"</p>
+          <sc-if value="{{ showUgcRatings }}" hint-placeholder-val="{{ true }}"><span style="font:600 12px/1 Archivo,sans-serif;letter-spacing:.08em;color:#2E7D32">&#9733;&#9733;&#9733;&#9733;&#9733; &nbsp;Fatima K.</span></sc-if>
+        </figcaption>
+      </figure>
+
+      <figure data-reveal="right" data-delay="240" style="margin:0;flex:0 0 auto;width:min(268px,72vw);scroll-snap-align:start;border:2px solid #111;border-radius:8px;overflow:hidden;background:#F7F2E6;box-shadow:5px 5px 0 #111;transition:transform .25s ease" style-hover="transform:rotate(1.4deg) scale(1.025)">
+        <div style="aspect-ratio:3/4;border-bottom:2px solid #111">
+          <img src="./assets/products/garlic-pickle.png" alt="Mubi's Kitchen Garlic Pickle jar" loading="lazy" style="display:block;width:100%;height:100%;object-fit:contain;padding:12px" />
+        </div>
+        <figcaption style="padding:13px;display:flex;flex-direction:column;gap:8px">
+          <p style="margin:0;font:400 15px/1.25 'Archivo Black',Archivo,sans-serif;text-transform:uppercase">"Bought three. Gifted none."</p>
+          <sc-if value="{{ showUgcRatings }}" hint-placeholder-val="{{ true }}"><span style="font:600 12px/1 Archivo,sans-serif;letter-spacing:.08em;color:#2E7D32">&#9733;&#9733;&#9733;&#9733;&#9733; &nbsp;Dev P.</span></sc-if>
+        </figcaption>
+      </figure>
+
+      <figure data-reveal="right" data-delay="320" style="margin:0;flex:0 0 auto;width:min(268px,72vw);scroll-snap-align:start;border:2px solid #111;border-radius:8px;overflow:hidden;background:#2E7D32;box-shadow:5px 5px 0 #111;display:flex;flex-direction:column;justify-content:space-between;gap:16px;padding:18px">
+        <p style="margin:0;font:400 clamp(20px,2vw,26px)/1.08 'Archivo Black',Archivo,sans-serif;text-transform:uppercase;color:#fff">Tag us and get 10% off your next jar</p>
+        <span style="align-self:flex-start;font:600 12px/1 Archivo,sans-serif;letter-spacing:.1em;text-transform:uppercase;background:#fff;color:#111;border:2px solid #111;border-radius:8px;padding:12px 14px">Post a photo</span>
+      </figure>
+
+    </div>
+  </section>
+
+  <section id="featured" style="padding:clamp(48px,6vw,104px) clamp(16px,4vw,56px);background:#F7F2E6">
+    <div style="max-width:1140px;margin:0 auto;display:flex;flex-wrap:wrap;gap:clamp(26px,4vw,60px);align-items:center">
+      <div data-reveal="left" style="flex:1 1 300px;min-width:260px;display:flex;flex-direction:column;gap:18px">
+        <span style="align-self:flex-start;font:600 12px/1 Archivo,sans-serif;letter-spacing:.16em;text-transform:uppercase;border:2px solid #111;border-radius:8px;padding:9px 12px;background:#fff">Inside the jar</span>
+        <h2 style="margin:0;font:400 clamp(32px,4.4vw,58px)/0.94 'Archivo Black',Archivo,sans-serif;text-transform:uppercase;letter-spacing:-.015em">Four things.<br>That's the<br>whole recipe.</h2>
+        <p style="margin:0;max-width:40ch;font:400 17px/1.55 Archivo,sans-serif;color:#2b2b2b;text-wrap:pretty">Mubi cuts the mangoes the morning they arrive, salts them by hand and lets the sun do the rest. No thickeners, no vinegar shortcut, no factory.</p>
+        <a href="#shop" style="align-self:flex-start;font:600 15px/1 Archivo,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#fff;background:#111;border:2px solid #111;border-radius:8px;padding:16px 24px;box-shadow:5px 5px 0 #2E7D32">Shop the jar</a>
+      </div>
+      <div style="flex:1 1 400px;min-width:280px;position:relative;display:flex;justify-content:center">
+        <div data-reveal="right" style="width:min(340px,80%);aspect-ratio:3/4;border:2px solid #111;border-radius:8px;background:#fff;box-shadow:8px 8px 0 #2E7D32;overflow:hidden">
+          <img src="./assets/products/garlic-pickle.png" alt="Mubi's Kitchen Garlic Pickle jar" loading="lazy" style="display:block;width:100%;height:100%;object-fit:contain;padding:18px" />
+        </div>
+        <div data-reveal="up" data-delay="200" style="position:absolute;top:4%;left:0;max-width:190px;border:2px solid #111;border-radius:8px;background:#fff;padding:10px 12px;font:600 12px/1.3 Archivo,sans-serif;letter-spacing:.04em;text-transform:uppercase;box-shadow:3px 3px 0 #111">Sun-ripened mangoes</div>
+        <div data-reveal="up" data-delay="300" style="position:absolute;top:34%;right:0;max-width:190px;border:2px solid #111;border-radius:8px;background:#2E7D32;color:#fff;padding:10px 12px;font:600 12px/1.3 Archivo,sans-serif;letter-spacing:.04em;text-transform:uppercase;box-shadow:3px 3px 0 #111">Cold-pressed mustard oil</div>
+        <div data-reveal="up" data-delay="400" style="position:absolute;bottom:22%;left:0;max-width:190px;border:2px solid #111;border-radius:8px;background:#fff;padding:10px 12px;font:600 12px/1.3 Archivo,sans-serif;letter-spacing:.04em;text-transform:uppercase;box-shadow:3px 3px 0 #111">Stone-ground masala</div>
+        <div data-reveal="up" data-delay="500" style="position:absolute;bottom:2%;right:2%;max-width:190px;border:2px solid #111;border-radius:8px;background:#111;color:#fff;padding:10px 12px;font:600 12px/1.3 Archivo,sans-serif;letter-spacing:.04em;text-transform:uppercase;box-shadow:3px 3px 0 #2E7D32">No added preservatives</div>
+      </div>
+    </div>
+  </section>
+
+  <section style="position:relative;border-top:2px solid #111;border-bottom:2px solid #111;min-height:min(78vh,640px);display:flex;align-items:flex-end;background:#E7EFE0">
+    <div style="position:absolute;inset:0">
+      <img src="./assets/products/lemon-pickle.png" alt="Mubi's Kitchen Lemon Pickle jar" loading="lazy" style="display:block;width:100%;height:100%;object-fit:contain;padding:24px" />
+    </div>
+    <div style="position:relative;width:100%;padding:clamp(28px,5vw,64px) clamp(16px,4vw,56px) clamp(20px,3vw,40px);pointer-events:none;align-self:flex-end">
+      <div style="max-width:1240px;margin:0 auto;display:flex;flex-wrap:wrap;gap:22px;align-items:flex-end;justify-content:space-between">
+        <h2 style="margin:0;font:400 clamp(30px,4.6vw,64px)/0.96 'Archivo Black',Archivo,sans-serif;text-transform:uppercase;color:#fff;letter-spacing:-.015em;max-width:17ch;text-wrap:balance;background:#111;border:2px solid #111;border-radius:8px;padding:18px 20px">Made the way your Ammachi made it</h2>
+        <a href="#shop" style="pointer-events:auto;font:600 15px/1 Archivo,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#111;background:#fff;border:2px solid #111;border-radius:8px;padding:17px 26px;box-shadow:5px 5px 0 #2E7D32">Get a jar</a>
+      </div>
+    </div>
+  </section>
+
+  <sc-if value="{{ showStoryStrip }}" hint-placeholder-val="{{ true }}">
+  <section id="story" style="padding:clamp(44px,6vw,96px) clamp(16px,4vw,56px);background:#F7F2E6">
+    <div data-reveal="up" style="max-width:980px;margin:0 auto;position:relative;border:2px solid #111;border-radius:8px;background:#fff;box-shadow:8px 8px 0 #111;padding:clamp(22px,3.4vw,40px);display:flex;flex-wrap:wrap;gap:clamp(20px,3vw,40px);align-items:center">
+      <div style="flex:0 0 auto;width:clamp(120px,18vw,180px);aspect-ratio:1/1;border:2px solid #111;border-radius:8px;background:#F7F2E6;overflow:hidden">
+        <img src="./assets/products/beef-pickle.png" alt="Mubi's Kitchen Beef Pickle jar" loading="lazy" style="display:block;width:100%;height:100%;object-fit:contain;padding:8px" />
+      </div>
+      <div style="flex:1 1 300px;min-width:240px;display:flex;flex-direction:column;gap:14px">
+        <h2 style="margin:0;font:400 clamp(24px,3vw,38px)/1 'Archivo Black',Archivo,sans-serif;text-transform:uppercase">Hi, I'm Mubi.</h2>
+        <p style="margin:0;font:400 17px/1.55 Archivo,sans-serif;color:#2b2b2b;text-wrap:pretty">I started making pickles for my sons' hostel tiffins. Word got out. Now we cure eleven kilos of mango a week in the same kitchen, by the same two hands, with the same recipe my mother wrote on the back of a calendar.</p>
+        <span style="font:600 12px/1 Archivo,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#2E7D32">Founder, Mubi's Kitchen &#183; Kochi</span>
+      </div>
+      <div style="position:absolute;top:-16px;right:18px;transform:rotate(7deg);background:#F7F2E6;border:2px solid #111;border-radius:8px;padding:9px 12px;font:600 11px/1 Archivo,sans-serif;letter-spacing:.12em;text-transform:uppercase;box-shadow:3px 3px 0 #2E7D32">Est. 2019</div>
+    </div>
+  </section>
+  </sc-if>
+
+  <footer style="background:#2E7D32;border-top:2px solid #111;color:#fff;padding:clamp(36px,5vw,72px) clamp(16px,4vw,56px) 24px">
+    <div style="max-width:1240px;margin:0 auto;display:flex;flex-wrap:wrap;gap:clamp(24px,4vw,56px)">
+      <div style="flex:1 1 300px;min-width:260px;display:flex;flex-direction:column;gap:18px">
+        <div style="width:92px;height:92px;border:2px solid #111;border-radius:8px;background:#2E7D32;color:#111;overflow:hidden">
+          <img src="./image.png" alt="Mubi's Kitchen logo" loading="lazy" style="display:block;width:100%;height:100%;object-fit:cover" />
+        </div>
+        <p style="margin:0;max-width:34ch;font:400 15px/1.5 Archivo,sans-serif">It's not just a pickle &mdash; it's home packed in a jar.</p>
+        <div style="display:flex;gap:10px;flex-wrap:wrap">
+          <span style="font:600 12px/1 Archivo,sans-serif;letter-spacing:.1em;text-transform:uppercase;border:2px solid #111;border-radius:8px;background:#fff;color:#111;padding:11px 13px">Instagram</span>
+          <span style="font:600 12px/1 Archivo,sans-serif;letter-spacing:.1em;text-transform:uppercase;border:2px solid #111;border-radius:8px;background:#fff;color:#111;padding:11px 13px">WhatsApp</span>
+          <span style="font:600 12px/1 Archivo,sans-serif;letter-spacing:.1em;text-transform:uppercase;border:2px solid #111;border-radius:8px;background:#fff;color:#111;padding:11px 13px">YouTube</span>
+        </div>
+      </div>
+      <div style="flex:1 1 140px;min-width:130px;display:flex;flex-direction:column;gap:11px;font:400 15px/1.4 Archivo,sans-serif">
+        <h3 style="margin:0 0 5px;font:600 12px/1 Archivo,sans-serif;letter-spacing:.14em;text-transform:uppercase;opacity:.85">Shop</h3>
+        <a href="#shop" style="color:#fff">All jars</a><a href="#shop" style="color:#fff">Gift boxes</a><a href="#shop" style="color:#fff">Subscribe &amp; save</a><a href="#shop" style="color:#fff">Bulk orders</a>
+      </div>
+      <div style="flex:1 1 140px;min-width:130px;display:flex;flex-direction:column;gap:11px;font:400 15px/1.4 Archivo,sans-serif">
+        <h3 style="margin:0 0 5px;font:600 12px/1 Archivo,sans-serif;letter-spacing:.14em;text-transform:uppercase;opacity:.85">Help</h3>
+        <a href="#story" style="color:#fff">Shipping</a><a href="#story" style="color:#fff">Returns</a><a href="#story" style="color:#fff">FAQs</a><a href="#story" style="color:#fff">Contact</a>
+      </div>
+      <div style="flex:1 1 280px;min-width:250px;display:flex;flex-direction:column;gap:12px">
+        <h3 style="margin:0;font:600 12px/1 Archivo,sans-serif;letter-spacing:.14em;text-transform:uppercase;opacity:.85">Newsletter</h3>
+        <p style="margin:0;font:400 15px/1.5 Archivo,sans-serif">Restock alerts and one recipe a month. Nothing else.</p>
+        <div style="display:flex;flex-wrap:wrap;gap:10px">
+          <input type="email" placeholder="you@email.com" style="flex:1 1 150px;min-width:140px;font:400 15px/1 Archivo,sans-serif;padding:15px 14px;border:2px solid #111;border-radius:8px;background:#fff;color:#111" />
+          <button type="button" style="font:600 13px/1 Archivo,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:#111;border:2px solid #111;border-radius:8px;padding:15px 20px;cursor:pointer">Join</button>
+        </div>
+      </div>
+    </div>
+    <div style="max-width:1240px;margin:clamp(26px,3vw,44px) auto 0;border-top:2px solid #111;padding-top:16px;display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between;font:600 11px/1.4 Archivo,sans-serif;letter-spacing:.1em;text-transform:uppercase">
+      <span>&copy; 2026 Mubi's Kitchen</span><span>Kochi, Kerala &#183; FSSAI 10021043001234</span>
+    </div>
+  </footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;marqueeSpeed&quot;:{&quot;editor&quot;:&quot;range&quot;,&quot;default&quot;:26,&quot;min&quot;:8,&quot;max&quot;:60,&quot;step&quot;:1,&quot;unit&quot;:&quot;s&quot;,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Motion&quot;},&quot;revealMotion&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;default&quot;:&quot;slide&quot;,&quot;options&quot;:[&quot;slide&quot;,&quot;fade&quot;,&quot;none&quot;],&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Motion&quot;},&quot;showUgcRatings&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Content&quot;},&quot;showStoryStrip&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Content&quot;}}">
+class Component extends DCLogic {
+  componentDidMount() { this.applyMotion(); }
+  componentDidUpdate() { this.applyMotion(); }
+
+  reveal(el) {
+    if (el.dataset.revealed === '1') return;
+    el.dataset.revealed = '1';
+    el.style.opacity = '1';
+    el.style.transform = 'none';
+  }
+
+  applyMotion() {
+    const speed = this.props.marqueeSpeed ?? 26;
+    document.querySelectorAll('[data-marquee]').forEach(el => { el.style.animationDuration = speed + 's'; });
+
+    const motion = this.props.revealMotion ?? 'slide';
+    const els = Array.from(document.querySelectorAll('[data-reveal]'));
+
+    // In a hidden frame CSS transitions stall, so never hide content there —
+    // wait until the document is actually visible to arm the entrance motion.
+    if (document.visibilityState !== 'visible') {
+      els.forEach(el => { el.style.opacity = ''; el.style.transform = ''; el.style.transition = ''; el.style.transitionDelay = ''; delete el.dataset.revealed; });
+      if (!this._vis) {
+        this._vis = () => { if (document.visibilityState === 'visible') { document.removeEventListener('visibilitychange', this._vis); this._vis = null; this.applyMotion(); } };
+        document.addEventListener('visibilitychange', this._vis);
+      }
+      return;
+    }
+
+    if (motion === 'none') {
+      this._stop = true;
+      els.forEach(el => {
+        el.dataset.revealed = '1';
+        el.style.opacity = ''; el.style.transform = ''; el.style.transition = ''; el.style.transitionDelay = '';
+      });
+      this._mode = 'none';
+      return;
+    }
+
+    const fresh = motion !== this._mode;
+    this._mode = motion;
+
+    els.forEach(el => {
+      if (el.dataset.revealed === '1' && !fresh) return;
+      const dir = el.getAttribute('data-reveal');
+      el.dataset.revealed = '0';
+      el.style.opacity = '0';
+      el.style.transform = motion === 'fade' ? 'none'
+        : dir === 'left' ? 'translateX(-48px)'
+        : dir === 'right' ? 'translateX(48px)'
+        : 'translateY(26px)';
+      el.style.transition = 'opacity .7s cubic-bezier(.2,.7,.2,1), transform .7s cubic-bezier(.2,.7,.2,1)';
+      el.style.transitionDelay = (Number(el.getAttribute('data-delay') || 0)) + 'ms';
+    });
+
+    // Timer-driven rect polling: rAF / IntersectionObserver / scroll events are all
+    // suspended in hidden frames (previews, screenshot capture), timers are not.
+    clearInterval(this._timer);
+    clearTimeout(this._failsafe);
+    this._timer = setInterval(() => {
+      let pending = 0;
+      for (const el of els) {
+        if (el.dataset.revealed === '1') continue;
+        const r = el.getBoundingClientRect();
+        if (r.top < (window.innerHeight || 800) * 0.94 && r.bottom > 0) this.reveal(el);
+        else pending++;
+      }
+      if (!pending) clearInterval(this._timer);
+    }, 90);
+    // Never let content stay invisible: reveal everything if motion hasn't run.
+    this._failsafe = setTimeout(() => {
+      clearInterval(this._timer);
+      els.forEach(el => this.reveal(el));
+    }, 6000);
+  }
+
+  componentWillUnmount() { clearInterval(this._timer); clearTimeout(this._failsafe); }
+
+  renderVals() {
+    return {
+      showUgcRatings: this.props.showUgcRatings ?? true,
+      showStoryStrip: this.props.showStoryStrip ?? true
+    };
+  }
+}
+</script>
+</body>
+</html>
